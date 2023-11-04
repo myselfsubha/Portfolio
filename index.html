@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,309 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .bx {
+            line-height: 1.7;
+        }
+
+        body {
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+        <a href="#" class="logo">MyselfSubha</a>
 
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skill</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skill</a>
+            <a href="#Contact">Contact</a>
         </nav>
     </header>
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hello It's Me</h3>
             <h1>Subhajit Ghorai</h1>
-            <h3>And I'm a <span id="existing-text"></span></h3>
-            <p>I'm a web Designer with extensive experience for 3 years.
-                <br>expertise is to create and website design, Frontend design , and many more.....</p>
+            <br>
+            <h3>And I'm a <span id="existing-text" style="color: #0ef;"></span></h3>
+            <br>
+            <p>I'm looking for a position where I can learn from and grow with exceptional team members while utilizing the project experience that I possess. 
+            </p>
             <div class="home-sci">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100037320964351"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/subha_07_11/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/subhajit-ghorai"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/myselfsubha"><i class='bx bxl-github'></i></a>
             </div>
-            <a href="#" class="btn-box">More About Me</a>
+            <a href="https://myselfsubha.pythonanywhere.com/" class="btn-box">More About Me</a>
+        </div>
+        <div class="profile">
+            <img src="myimage.jpg" alt="My Own Image">
         </div>
     </section>
+    <section class="About" id="about">
+        <div class="About-content">
+            <h1>About Me</h1>
+            <br>
+            <h2>Education</h2>
+            <!-- Education Card 1-->
+            <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card-body p-5" style="color: black;">
+                    <div class="row align-items-center gx-5">
+                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                            <div class="bg-light p-4 rounded-4">
+                                <div class="text-secondary fw-bolder mb-2">2021 - Present</div>
+                                <div class="mb-2">
+                                    <div class="small fw-bolder">SVIMS College</div>
+                                    <div class="small text-muted">Sonarpur, Kolkata</div>
+                                </div>
+                                <div class="fst-italic">
+                                    <div class="small text-muted">Bachelor's of </div>
+                                    <div class="small text-muted">Computer Application</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div> Now i am persuing BCA from Swami Vivekananda Institute of Modern Science.College
+                                education is a transformative journey that empowers individuals to unlock their full
+                                potential, expand their horizons, and contribute to society. It offers a rich blend
+                                of
+                                academic knowledge, personal growth, and skill development that prepares students
+                                for
+                                the challenges and opportunities of the modern world.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="svims.webp" alt="College Image">
+            </div>
+            <!-- Education Card 2-->
+            <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card-body p-5" style="color: black;">
+                    <div class="row align-items-center gx-5">
+                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                            <div class="bg-light p-4 rounded-4">
+                                <div class="text-secondary fw-bolder mb-2">2019 - 2021</div>
+                                <div class="mb-2">
+                                    <div class="small fw-bolder">Dhuliapur PS Bani Mandir</div>
+                                    <div class="small text-muted">Panskura,Purba Medinipur</div>
+                                </div>
+                                <div class="fst-italic">
+                                    <div class="small text-muted">Higher Secondary</div>
+                                    <div class="small text-muted">Pure Science</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div>I have completed my higher secondary from Dhuliapur PS Bani Mandir With Science
+                                background.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image1">
+                <img src="dpbm.jpeg" alt="School Image">
+            </div>
+            <!-- Education Card 3-->
+            <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card-body p-5" style="color: black;">
+                    <div class="row align-items-center gx-5">
+                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                            <div class="bg-light p-4 rounded-4">
+                                <div class="text-secondary fw-bolder mb-2">2013 - 2019</div>
+                                <div class="mb-2">
+                                    <div class="small fw-bolder">K.G.H.S</div>
+                                    <div class="small text-muted">Panskura,Purba Medinipur</div>
+                                </div>
+                                <div class="fst-italic">
+                                    <div class="small text-muted">Secondary</div>
+                                    <div class="small text-muted"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div>I have completed my Secondary Education from Kalai Gobardhan High School.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-image2">
+            <img src="kalai.jpeg" alt="School Image">
+        </div>
+    </section>
+    <section class="skill" id="skill">
+        <h1> My Skills</h1>
+        <div class="SkillCard">
+            <!-- Skillset Card -->
+            <div class="card shadow border-0 rounded-4 mb-5">
+                <div class="card-body p-5">
+                    <!-- Professional skills list-->
+                    <div class="mb-5">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
+                                <i class="bi bi-tools"></i></div>
+                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Professional Skills</span>
+                            </h3>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-3 mb-4">
+                            <div class="col mb-4 mb-md-0">
+                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Database
+                                    Administration
+                                </div>
+                            </div>
+                            <div class="col mb-4 mb-md-0">
+                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Web Development
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Statistical Analysis
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-3">
+                            <div class="col mb-4 mb-md-0">
+                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Network Security
+                                </div>
+                            </div>
+                            <div class="col mb-4 mb-md-0">
+                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">User Interface
+                                    Design
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Adobe Software Suite
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Languages list-->
+                    <div class="mb-0">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
+                                <i class="bi bi-code-slash"></i></div>
+                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Languages</span></h3>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-3 mb-4">
+                            <div class="col mb-4 mb-md-0">
+                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div>
+                            </div>
+                            <div class="col mb-4 mb-md-0">
+                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-3">
+                            <div class="col mb-4 mb-md-0">
+                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div>
+                            </div>
+                            <div class="col mb-4 mb-md-0">
+                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Django</div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"> C </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Contact" id="Contact">
+        <div class="Contact-content">
+            <!-- <h1>Contact Me</h1> -->
+            <div class="bg-light rounded-4 py-5 px-4 px-md-5">
+                <div class="text-center mb-5">
+                    <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i
+                            class="bi bi-envelope"></i></div>
+                    <h1 class="fw-bolder"><span class="text-gradient d-inline">CONTACT</span></h1>
+                    <p class="lead fw-normal text-muted mb-0 mt-5">Looking forward to answering your email</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6">
+
+                        <form action="" method="post" class="needs-validation" novalidate>
+                            <div class="form-group">
+                                <label for="uname">Name:</label>
+                                <input type="text" class="form-control" id="uname" placeholder="Enter name" name="name"
+                                    required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email id:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                    name="email" required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="number">Phone Number:</label>
+                                <input type="tel" class="form-control" id="number" placeholder="Enter Ph number"
+                                    name="number" required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea type="text" class="form-control" id="uname" placeholder="Message"
+                                    name="message" required></textarea>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+
+                            <div>
+                                <p></p>
+                            </div>
+                            <div class="d-grid"><button type="submit" class="btn btn-primary">Submit</button></div>
+                        </form>
+                        <script>
+                            // Disable form submissions if there are invalid fields
+                            (function () {
+                                'use strict';
+                                window.addEventListener('load', function () {
+                                    // Get the forms we want to add validation styles to
+                                    var forms = document.getElementsByClassName('needs-validation');
+                                    // Loop over them and prevent submission
+                                    var validation = Array.prototype.filter.call(forms, function (form) {
+                                        form.addEventListener('submit', function (event) {
+                                            if (form.checkValidity() === false) {
+                                                event.preventDefault();
+                                                event.stopPropagation();
+                                            }
+                                            form.classList.add('was-validated');
+                                        }, false);
+                                    });
+                                }, false);
+                            })();
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h2>Copyright © Subhajit Ghorai</h2>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
+
 </html>
